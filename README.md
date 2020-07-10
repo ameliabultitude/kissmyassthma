@@ -1,39 +1,17 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Kiss my assthma
+### "Because it's not just asthma..."
+This website has been created to make people aware whilst educating them. Asthma is a condition that not many know about so the aim of this site was to build a community where it gives confidence. The site has a continued clean and flat design whilst being user friendly and interactive. Before creating the design and website a business strategy map was created. This allowed us to see the purpose, future, distribution and marketing channels along with competitors and competitive stategies; before finding a suitable design and website. 
 
-Welcome ameliabultitude,
+Hosted on GitHub and GitHub Pages
+Created by Amelia Bultitude
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## UX
+(insert image from am i responsive at finish)
 
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+### Users
+The expected user of this website could be an any aged, male/female, chronic asthma sufferer or friends and family of those. They will be from any English reading countries, online who are seeking advice and personal knowledge.
+### User Stories
+* A sufferer of chronic asthma looking for a community and/or support.
+* Friends/Family that know someone who suffers and would like more understanding.
+* Researchers looking for understanding and personal, real like experience. 
+### Design 
