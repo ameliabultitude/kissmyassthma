@@ -21,7 +21,7 @@ The expected user of this website could be an any aged, male/female, chronic ast
     * #9eb8db
     * #467899
     * #1d3354
-![colorscheme](images/colorscheme.jpg)
+![colorscheme](assets/images/colorscheme.jpg)
 * Custom Design Logo created with independent sources.
 * Montserrat Subrayada used for heading and Montserrat used for text throughout.
     * font-family: 'Montserrat', 'Montserrat Subrayada', sans-serif
