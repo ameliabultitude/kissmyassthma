@@ -9,4 +9,20 @@ body {
     background-color: #fff;
     border-style: solid;
     text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+footer  {
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+}
+
+.footer-title-one,
+.footer-title-two,
+.footer-title-three {
+    font-weight: bold;
 }
