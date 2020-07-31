@@ -1,6 +1,6 @@
 # Kiss my assthma
 ### "Because it's not just asthma..."
-This website has been created to make people aware whilst educating them. Asthma is a condition that not many know about so the aim of this site was to build a community where it gives confidence. The site has a continued clean and flat design whilst being user friendly and interactive. Before creating the design and website a business strategy map was created. This allowed us to see the purpose, future, distribution and marketing channels along with competitors and competitive stategies; before finding a suitable design and website. 
+This website has been created to make people aware whilst educating them. Asthma is a condition that not many know about so the aim of this site was to build a community where it gives confidence. The site has a continued clean and flat design whilst being user friendly and interactive. Before creating the design and website a business strategy map was created. This allowed us to see the purpose, future, distribution and marketing channels along with competitors and competitive stategies; before finding a suitable design and website. Kiss my assthma was designed to have two S's as aposed to one. This comes with a light hearted pun which was thought to bring laughter to those who may be struggling with this condition. 
 
 Hosted on GitHub and GitHub Pages
 Created by Amelia Bultitude

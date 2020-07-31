@@ -10,6 +10,7 @@ body {
     border-style: solid;
     text-align: center;
     font-family: "Montserrat", sans-serif;
+    display: inherit;
 }
 
 ul li {
