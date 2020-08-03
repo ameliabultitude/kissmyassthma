@@ -50,6 +50,38 @@ h6 {
 .subtitle {
     padding-top: 3%;
 }
+
+/* Index Boxes */
+
+.container {
+    position: relative;
+    width: 60%;
+    height: 30%;
+    margin: 20% auto;
+    background: #9ed8db;
+    border-style: solid;
+}
+
+.container .box {
+    position: relative;
+    width:calc(40%; - 20%;);
+    height:calc(30%; - 10%);
+    background-color: #d64045;
+    border-style: solid;
+}
+
+/*spare 
+position: absolute;
+width: 970px;
+height: 328px;
+left: 238px;
+top: 357px;
+
+background: #9ED8DB;
+border: 3px solid #000000;
+box-sizing: border-box;
+*/
+
 /* Footer Elements */
 
 footer  {
