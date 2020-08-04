@@ -14,6 +14,10 @@ a {
     background-color: transparent;
 }
 
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
 .margin-box{
     background-color: #fff;
     border-style: solid;
@@ -80,19 +84,54 @@ h6 {
 
 .spicyTitle {
     padding: 2%;
-    top: 20px;
-    left: -10px;
-    background: aquamarine;
-
+    top: -30px;
+    left: -30px;
+    background: #E9FFF9;
+    border-style: solid;
 }
 
 .spicyBox {
-    background-color: 	#00FF00;
+    background-color: 	#9ED8DB;
+    margin-top: 7%;
+    border-style: solid;
+    width: 80%;
 }
 
+.featuredImage {
+    width: 60%;
+    padding-bottom: 20%;
+}
 
 .card {
     text-align: center;
+}
+
+.signUpBox {
+    height: auto;
+
+}
+
+.SignUpTitle {
+    border-style: solid;
+    background-color:#D64045;
+    font-family:"Montserrat", sans-serif;
+    float: right;
+    width: auto;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+
+.email-signup-form {
+    margin-top: 20%;
+    float: right;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.email-box {
+    border-style: solid;
+    background-color:#9ED9DB;
+    font-family:"Montserrat". sans-serif;
 }
 
 /* Blog */
@@ -136,9 +175,13 @@ h6 {
 .
 /* Footer Elements */
 
-footer  {
+footer {
     font-family: "Montserrat", sans-serif;
     position: relative;
+}
+
+.footer-box-one {
+    position: flex;
 }
 
 .footer-box-two {
