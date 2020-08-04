@@ -29,6 +29,7 @@ a {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     display: inherit;
+    position: sticky;
 }
 
 .social-icon-top {
@@ -77,12 +78,45 @@ h6 {
     border:#000;
 }
 
+.card {
+    text-align: center;
+}
+
 /* Blog */
 
 /* About */
 
 /* Contact */
 
+.contact-title-box {
+    border:#000 2px;
+    border-style: solid;
+    background-color:#467599;
+    color:#000;
+    font-family:"Montserrat", sans-serif;
+    width: 35%;
+    height: auto;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.form {
+    height: auto;
+    align-items: center;
+}
+
+.form-box {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color:#000;
+    border:#000 2px;
+    border-style: solid;
+}
+
+.
 /* Footer Elements */
 
 footer  {
