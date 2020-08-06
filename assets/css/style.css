@@ -149,7 +149,31 @@ h6 {
 
 /* About */
 
+.about {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 
+.about-title-box {
+    border:#000 2px;
+    border-style: solid;
+    background-color:#467599;
+    color:#000;
+    font-family:"Montserrat", sans-serif;
+    width: 35%;
+    height: auto;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.heroImgAbout {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
 /* Blog */
 
 .blog {
@@ -187,6 +211,11 @@ h6 {
 
 /* Contact */
 
+.contact {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 .contact-title-box {
     border:#000 2px;
     border-style: solid;
@@ -198,6 +227,7 @@ h6 {
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
+    margin-bottom: 7%;
 }
 
 .form {
@@ -213,6 +243,12 @@ h6 {
     color:#000;
     border:#000 2px;
     border-style: solid;
+    padding: 5%;
+    background-color:#E9FFF9;
+}
+
+.submitBtn{
+    background-color:#D64045;
 }
 
 /* Map */
