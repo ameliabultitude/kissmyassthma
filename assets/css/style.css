@@ -28,24 +28,12 @@ p {
 
 .navbar {
     color: #000;
-    background-color: #fff;
     border-style: solid;
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    display: inherit;
-    position: sticky;
+    list-style-type: none;
 }
 
 .social-icon-top {
     display: contents;
-}
-
-ul {
-    padding-inline-start: 0px;
-}
-
-ul li {
-    list-style-type: none;
 }
 
 /* Heading Elements */
@@ -61,8 +49,10 @@ h6 {
 }
 
 .subtitle {
-    padding-top: 3%;
+    padding-top: 20%;
 }
+
+
 
 /* Images */
 
