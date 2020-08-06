@@ -74,6 +74,11 @@ h6 {
     position: relative;
 }
 
+.heroImgAbout{
+    width:15%;
+    height:15;
+}
+
 /* Index */
 
 .index-main-box {
@@ -177,42 +182,31 @@ h6 {
 .about-text-box-1 {
     font-family: "Montserrat", sans-serif;
     font-size: small;
-    width: 20%;
     border-style: solid;
     background-color:#D64045;
-    float: left;
-    margin-left: 10%;
+    width: 15%;
 }
 
 .about-text-box-2 {
     font-family: "Montserrat", sans-serif;
     font-size: small;
-    width: 20%;
     border-style: solid;
     background-color:#D64045;
-    float: right;
-    margin-right: 10%;
+    width: 15%;
 }
 
 .about-text-box-3 {
     font-family: "Montserrat", sans-serif;
     font-size: small;
-    width: 20%;
     border-style: solid;
     background-color:#D64045;
-    margin-bottom: 20%;
-    float: left;
-    margin-left: 10%;
 }
 
 .about-text-box-4 {
     font-family: "Montserrat", sans-serif;
     font-size: small;
-    width: 20%;
     border-style: solid;
     background-color:#D64045;
-    float: right;
-    margin-right: 10%;
 }
 
 
@@ -249,6 +243,17 @@ h6 {
 .blogBtn {
     margin-left: 75%;
     padding: 2%;
+}
+
+.blogBoxThree{
+    padding-bottom: 10%;
+    margin-bottom:10%;
+}
+
+.readMore{
+    background-color:#D64045!important;
+    border-style: solid;
+    font-family: "Montserrat", sans-serif;
 }
 
 /* Contact */
