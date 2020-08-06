@@ -24,6 +24,14 @@ p {
     border: 2px #000;
 }
 
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
 /* Navbar Elements */
 
 .navbar {
@@ -49,10 +57,12 @@ h6 {
 }
 
 .subtitle {
-    padding-top: 20%;
+    padding-top: 7%;
 }
 
-
+.title {
+    padding-top: 5%;
+}
 
 /* Images */
 
@@ -137,9 +147,43 @@ h6 {
     font-family:"Montserrat". sans-serif;
 }
 
+/* About */
+
+
 /* Blog */
 
-/* About */
+.blog {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.blog-title-box {
+    border:#000 2px;
+    border-style: solid;
+    background-color:#467599;
+    color:#000;
+    font-family:"Montserrat", sans-serif;
+    width: 35%;
+    height: auto;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.scroll-box {
+    border-style: solid;
+    margin-left:10%;
+    margin-bottom:10%;
+    background-color: #E9FFF9; 
+    width: 80%; 
+    height: 10%; 
+    text-align:center; 
+}
+
+.blogBtn {
+    margin-left: 75%;
+    padding: 2%;
+}
 
 /* Contact */
 
