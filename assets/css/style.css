@@ -74,12 +74,6 @@ h6 {
     position: relative;
 }
 
-.heroImgAbout {
-    width: 30%;
-    height: 30%;
-    border-radius: 50%;
-    margin-left: 35%;
-}
 /* Index */
 
 .index-main-box {
@@ -187,6 +181,7 @@ h6 {
     border-style: solid;
     background-color:#D64045;
     float: left;
+    margin-left: 10%;
 }
 
 .about-text-box-2 {
@@ -196,6 +191,7 @@ h6 {
     border-style: solid;
     background-color:#D64045;
     float: right;
+    margin-right: 10%;
 }
 
 .about-text-box-3 {
@@ -206,6 +202,7 @@ h6 {
     background-color:#D64045;
     margin-bottom: 20%;
     float: left;
+    margin-left: 10%;
 }
 
 .about-text-box-4 {
@@ -215,6 +212,7 @@ h6 {
     border-style: solid;
     background-color:#D64045;
     float: right;
+    margin-right: 10%;
 }
 
 
