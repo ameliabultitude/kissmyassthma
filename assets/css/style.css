@@ -81,10 +81,15 @@ h6 {
     display: block;
 }
 
+.featuredImageOne {
+    width: 60%;
+    padding-bottom: 20%;
+}
+
 .featuredImage {
     width: 60%;
     padding-bottom: 20%;
-    padding-top:60%;
+    padding-top:50%;
 }
 
 /* Index */
@@ -123,6 +128,7 @@ h6 {
     margin-top: 7%;
     border-top:solid;
     width: 100%;
+    right: 0px;
 }
 
 .fullWidth {
@@ -255,7 +261,8 @@ h6 {
     margin-bottom:10%;
     background-color: #E9FFF9; 
     width: 80%; 
-    height: 10%; 
+    height: 500px; 
+    overflow-y: scroll;
     text-align:center; 
 }
 
