@@ -75,8 +75,16 @@ h6 {
 }
 
 .heroImgAbout{
-    width:15%;
-    height:15;
+    width:50%;
+    height:50%;
+    margin: auto;
+    display: block;
+}
+
+.featuredImage {
+    width: 60%;
+    padding-bottom: 20%;
+    padding-top:60%;
 }
 
 /* Index */
@@ -104,19 +112,21 @@ h6 {
 }
 
 .spicyBox {
-    background-color: 	#9ED8DB;
+    background-color:#9ED8DB;
     margin-top: 7%;
     border-style: solid;
     width: 80%;
 }
 
-.fullWidth {
+.spicyBox2 {
+    background-color: #9ED8DB;
+    margin-top: 7%;
+    border-top:solid;
     width: 100%;
 }
 
-.featuredImage {
-    width: 60%;
-    padding-bottom: 20%;
+.fullWidth {
+    width: 100%;
 }
 
 .card {
@@ -171,12 +181,15 @@ h6 {
     padding-bottom: 5%;
 }
 
-.classyOne {
-    position: relative;
+.left-about-text-boxes {
+    width:60%;
+    display:block;
 }
 
-.classyTwo {
-    position: relative;
+.right-about-text-boxes {
+    width:60%;
+    display: block;
+    margin-left: 70%;
 }
 
 .about-text-box-1 {
@@ -184,7 +197,8 @@ h6 {
     font-size: small;
     border-style: solid;
     background-color:#D64045;
-    width: 15%;
+    width: 45%;
+    display:table;
 }
 
 .about-text-box-2 {
@@ -192,7 +206,8 @@ h6 {
     font-size: small;
     border-style: solid;
     background-color:#D64045;
-    width: 15%;
+    width: 45%;
+    display:table;
 }
 
 .about-text-box-3 {
@@ -200,6 +215,8 @@ h6 {
     font-size: small;
     border-style: solid;
     background-color:#D64045;
+    width: 45%;
+    display:table;
 }
 
 .about-text-box-4 {
@@ -207,6 +224,8 @@ h6 {
     font-size: small;
     border-style: solid;
     background-color:#D64045;
+    width: 45%;
+    display:table;
 }
 
 
@@ -240,22 +259,41 @@ h6 {
     text-align:center; 
 }
 
-.blogBtn {
-    margin-left: 75%;
-    padding: 2%;
+.btn-full {
+    margin: 2%;
+    width: 100%;
 }
 
-.blogBoxThree{
+.blogBoxOne {
+    background-color: 	#9ED8DB;
+    margin-top: 7%;
+    border-style: solid;
+    width: 80%;
+}
 
+.blogBoxTwo {
+    background-color: 	#9ED8DB;
+    margin-top: 7%;
+    border-style: solid;
+    width: 80%;
+}
+
+.blogBoxThree {
+    background-color:#9ED8DB;
+    margin-top: 7%;
+    border-style: solid;
+    width: 80%;
+    margin-bottom:10%;
 }
 
 .readMore{
     background-color:#D64045!important;
     border-style: solid;
     font-family: "Montserrat", sans-serif;
+    width: 100%;
 }
 
-/* Blog - The Modal */
+/* Blog - The Modal 
 
 .modal {
   display: none;
@@ -290,7 +328,7 @@ h6 {
   color: black;
   text-decoration: none;
   cursor: pointer;
-}
+} */
 
 /* Contact Page */
 
@@ -359,4 +397,10 @@ footer {
 .footer-title-two,
 .footer-title-three {
     font-weight: bold;
+}
+
+.useful-links-ul,
+.address-ul,
+.legal-ul {
+    padding-left:0;
 }
