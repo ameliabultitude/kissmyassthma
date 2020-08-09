@@ -52,3 +52,89 @@ Features planned, implimented and outlined for later development.
     * Remote Repository
 * Deployed
     * Hosted on GitHub Pages
+* Google Maps API
+* JS Modals
+* JS Hamburger Navbar
+## Inplimented Features
+* README file 
+* Mock Ups
+* Color Scheme
+* Custom Logo
+* Bootstrap - HTML CSS and JAVASCRIPT 
+    * Grid System 
+* Responsive Design
+    * Mobile First
+* UX Elements
+    * User Flow 
+    * Animations 
+    * Transitions
+* GitHub
+    * Remote Repository
+* Deployed
+    * Hosted on GitHub Pages
+* Google Maps API
+
+# Technology/Sites used
+* HTML - 
+    * The language HTML was used for structure.
+* CSS -
+    * The language CSS was used for design.
+* JAVASCRIPT - 
+    * The language JS was usedfor interactivity.
+* Google Chrome -
+    * Chrome was used for developer tools and as a viewing browser.
+* Firefox -
+    * Firefox was used for developer tools and as a viewing browser
+* Safari -
+    * Safari was used as a viewing browser.
+* Google -
+    * Google was used throughout development for research.
+* Bootstrap -
+    * Bootstrap was used for the grid system and the HTML, CSS and  JAVASCRIPT frameworks.
+* Visual Studio Code - 
+    * VS Code IDE was used for overall development.
+* GitHub - 
+    * GitHub was used to host the repository.
+* GitHub Pages -
+    * GitHub Pages allowed for the website to be hosted.
+* Google Fonts -
+    * Google Fonts were used for importing design fonts throughout the website.
+* Font Awesome - 
+    * Font Awesome were used for importing icons in throughout the website.
+* Slack - 
+    * Slack was used as community forum for help and support if and when needed.
+* Am I Responsive - 
+    * Am I Responsive was used for testing the responsiveness of the website.
+
+# Testing 
+Throughout my project, I put my site through many tests to ensure it worked correctly. The tests I ran were...
+* Checking flow throughout the page with buttons in nav bar.
+* Checking flow throughout the page with logo href.
+* Checking my page was responsive throughout, on every device screen, portrait and landscape.
+* Checking footer bar buttons href, linking to outer sites.
+* Checking that my form has required settings and that it includes an email attribute.
+* Checking every change made to the site in my IDE as I did it to ensure it was functional.
+* Running site through HTML Validator and CSS Validator.
+
+# Users
+The expected audience of this site are any gender, they 
+* 
+* 
+* 
+* 
+# User Scenarios
+*
+
+# Bugs During development
+Bugs
+* Nav would not spread over the whole width of the page. 
+Solution
+* The use of Bootstrap and fixing the nav into 'sticky' ensured the nav fitted the screen.
+Bugs
+* Never Miss a Post Box floating right on mobile making width of mobile view.off.
+Solution
+* 
+Bugs
+* The Modal would not open.
+Solution
+* 
