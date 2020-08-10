@@ -2,6 +2,10 @@
 
 /* General Elements */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #E9FFF9;;
     margin-left: 5%;
@@ -67,6 +71,8 @@ h6 {
     padding-top: 5%;
 }
 
+
+
 /* Images */
 
 .mask-img {
@@ -79,10 +85,11 @@ h6 {
 }
 
 .heroImgAbout{
-    width:60%;
-    height:50%;
+    width:100%;
+    height:100%;
     margin: auto;
     display: block;
+    padding-bottom: 7%;
 }
 
 .featuredImageOne {
@@ -113,21 +120,19 @@ h6 {
 
 /* Back to Top Btn */
 
-#backToTopBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: red;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 10px;
-  font-size: 18px;
+.backBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #D64045;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
 }
+
 
 #backToTopBtn:hover {
   background-color: #555;
@@ -244,7 +249,6 @@ h6 {
     font-size: small;
     border-style: solid;
     background-color:#D64045;
-    width: 45%;
     display:table;
 }
 
@@ -253,7 +257,6 @@ h6 {
     font-size: small;
     border-style: solid;
     background-color:#D64045;
-    width: 45%;
     display:table;
 }
 
@@ -262,7 +265,6 @@ h6 {
     font-size: small;
     border-style: solid;
     background-color:#D64045;
-    width: 45%;
     display:table;
 }
 
@@ -271,7 +273,6 @@ h6 {
     font-size: small;
     border-style: solid;
     background-color:#D64045;
-    width: 45%;
     display:table;
 }
 
