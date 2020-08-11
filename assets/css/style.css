@@ -8,8 +8,8 @@ html {
 
 body {
     background-color: #E9FFF9;;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 a {
@@ -44,7 +44,9 @@ ul li {
 .navbar {
     color: #000;
     border-style: solid;
-    list-style-type: none;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
 }
 
 .social-icon-top {

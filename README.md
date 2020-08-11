@@ -117,24 +117,36 @@ Throughout my project, I put my site through many tests to ensure it worked corr
 * Running site through HTML Validator and CSS Validator.
 
 # Users
-The expected audience of this site are any gender, they 
-* 
-* 
-* 
-* 
+The expected audience of this site are any gender, they will be most likely be in close contact with others or dealing themselves with severe brittle asthma. 
+* Family and Friends who have a close person dealing with brittle asthma and are looking for support/advice and a community.
+* An individual looking for a community and support from others going through the same thing.
+* A person who would like to learn more about asthma from a personal aspect.
+* A researcher looking for a personal view and take on asthma. 
 # User Scenarios
-*
+* 
 
-# Bugs During development
-Bugs
-* Nav would not spread over the whole width of the page. 
-Solution
-* The use of Bootstrap and fixing the nav into 'sticky' ensured the nav fitted the screen.
-Bugs
-* Never Miss a Post Box floating right on mobile making width of mobile view.off.
-Solution
-* 
-Bugs
-* The Modal would not open.
-Solution
-* 
+# Bugs During Development
+* Bugs
+    * Nav would not spread over the whole width of the page. 
+* Solution
+    * The use of Bootstrap and fixing the nav into 'sticky' ensured the nav fitted the screen.
+* Bugs
+    * Never Miss a Post Box floating right on mobile making width of mobile view too wide.
+* Solution
+    * unsolved 9/08/2020
+* Bugs
+    * The Modal would not open.
+* Solution
+    * Use of J-Query format allowing modal box to open.
+* Bugs
+    * Heading and Sub heading appearing under carousel not on the images.
+* Solution
+    * Use of Bootstrap allowed the heading and sub heading to appear on the carousel. 
+* Bugs
+    * Go to top of page button always in view, rather than only appearing once scrolling.
+* Solution
+    * unsolved 11/08/2020.
+* Bugs
+    * About page, image and text not aligning as designed.
+* Solution
+    * Use of Bootstrap grid system. 
