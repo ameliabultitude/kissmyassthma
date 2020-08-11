@@ -4,6 +4,8 @@
 
 html {
     scroll-behavior: smooth;
+    width: auto;
+    height: auto;
 }
 
 body {
@@ -53,7 +55,7 @@ ul li {
 }
 
 .mobileBox {
-    height: 50%;
+    height: 50px;
 }
 
 /* Navbar Elements */
