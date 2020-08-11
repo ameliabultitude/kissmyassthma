@@ -147,6 +147,10 @@ The expected audience of this site are any gender, they will be most likely be i
 * Solution
     * unsolved 11/08/2020.
 * Bugs
+    * Trialling out a new button for go to top, isn't appearing at all.
+* Solution
+    * unsolved 11/08/2020.
+* Bugs
     * About page, image and text not aligning as designed.
 * Solution
     * Use of Bootstrap grid system. 

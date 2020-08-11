@@ -124,7 +124,7 @@ h4 {
     width: 50%;
 }
 
-/* Back to Top Btn */
+/* Back to Top Btn
 
 .backBtn {
     position: fixed;
@@ -142,7 +142,7 @@ h4 {
 
 #backToTopBtn:hover {
   background-color: #555;
-}
+} */
 
 /* Index */
 
@@ -407,7 +407,44 @@ h4 {
 
 #map { height: 180px;}
 
-.
+/* Back To Top Button */
+#backButton {
+  display: inline-block;
+  background-color: #D64045;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#backButton::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#backButton:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#backButton:active {
+  background-color: #555;
+}
+#backButton.show {
+  opacity: 1;
+  visibility: visible;
+}
+
 /* Footer Elements */
 
 footer {

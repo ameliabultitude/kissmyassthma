@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <script language="JavaScript" type="text/javascript" src="assets/js/custom.js"></script>
         <script src="assets/js/modal-window.js"></script>
+        <script src="assets/js/backbtn.js"></script>
 <!--End of links for local stylesheets and JS sheets-->
         <title>Kiss My Assthma</title>
     </head>
@@ -48,13 +49,14 @@
 <!-- End of Navigation Bar -->
         </header>
         <section>
+            <a id="backButton"></a>
 <!--Title-->
             <div class="margin-box">
                 <div class="title">
-                    <div class="subtitle">
+                    <div class="subtitle col-sm-4">
                         <h4> Because it's not just asthma...</h4>
                     </div>
-                    <div class="main-title">
+                    <div class="main-title col-sm-4">
                         <p class="KMA-title"> Kiss My Assthma </p>
                     </div>
                 </div>
@@ -62,7 +64,8 @@
                     <div class="d-flex justify-content-center mx-auto contact-title-box">
                         <h5>Contact</h5>
                     </div>
-    <!--Contact Form-->
+<!--End of Title-->
+<!--Contact Form-->
                     <form class="form-box">
                         <div class="form-group">
                             <label for="FormControlInput1">Name</label>
@@ -78,13 +81,19 @@
                         </div>
                         <input type="submit" value="Submit" class="submitBtn">
                     </form>
+<!--End of Contact Form-->
                 </div>
-                <!--Google Maps Integration-->
+<!--Google Maps Integration-->
                 <div id="map"> </div>
 
                 </div>
+<!--End of Google Maps Integration-->
+<!--Back to top Button
+                <div>
+                    <button onclick="topFunction()" id="backToTopBtn" class="backBtn" title="Go to top">^</button>
+                </div>
+End of Back to top Button--> 
         </section>
-
     </body>
     <footer>
 <!--Text Footer-->
