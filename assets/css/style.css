@@ -13,12 +13,14 @@ body {
     margin-right: 0;
 }
 
-section{
+.section{
     background-color: #E9FFF9;;
     margin-left:15%;
     margin-right:15%;
-    margin-bottom:15%;
-    border-bottom:solid;
+}
+
+.sectionSpinOff{
+    background-color: #E9FFF9;;
 }
 
 a {
@@ -33,9 +35,9 @@ p {
 
 .margin-box{
     background-color: #fff;
-    border-top: solid;
-    border-left: solid;
-    border-right:solid;
+    border:solid;
+    padding-bottom:7%;
+
 }
 
 .h5 {
@@ -48,6 +50,10 @@ ul {
 
 ul li {
     list-style-type: none;
+}
+
+.mobileBox {
+    height: 50%;
 }
 
 /* Navbar Elements */
@@ -111,7 +117,6 @@ h4 {
 
 .heroImgAbout{
     width:100%;
-    height:100%;
     margin: auto;
     display: block;
     padding-bottom: 7%;
@@ -143,26 +148,6 @@ h4 {
     width: 50%;
 }
 
-/* Back to Top Btn
-
-.backBtn {
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    border: none;
-    outline: none;
-    background-color: #D64045;
-    color: white;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-
-#backToTopBtn:hover {
-  background-color: #555;
-} */
-
 /* Index */
 
 .index-main-box {
@@ -180,7 +165,7 @@ h4 {
 }
 
 .spicyTitle2 {
-    right: -510px;
+    left: -3px;
     top: -30px;
     background: #D64045;
     border-style: solid;
@@ -197,6 +182,8 @@ h4 {
 .spicyBox2 {
     background-color: #9ED8DB;
     margin-top: 7%;
+    border-left:solid;
+    border-right:solid;
     border-top:solid;
     width: 100%;
     right: 0px;
@@ -248,10 +235,9 @@ h4 {
 .about-title-box {
     border:#000 2px;
     border-style: solid;
-    background-color:#467599;
-    color:#000;
+    background-color:#1d3354;
+    color:#fff;
     font-family:"Montserrat", sans-serif;
-    width: 35%;
     height: auto;
     text-align: center;
     padding-top: 5%;
@@ -273,7 +259,6 @@ h4 {
     font-family: "Montserrat", sans-serif;
     font-size: small;
     border-style: solid;
-    background-color:#D64045;
     display:table;
 }
 
@@ -281,7 +266,6 @@ h4 {
     font-family: "Montserrat", sans-serif;
     font-size: small;
     border-style: solid;
-    background-color:#D64045;
     display:table;
 }
 
@@ -289,7 +273,6 @@ h4 {
     font-family: "Montserrat", sans-serif;
     font-size: small;
     border-style: solid;
-    background-color:#D64045;
     display:table;
 }
 
@@ -297,8 +280,11 @@ h4 {
     font-family: "Montserrat", sans-serif;
     font-size: small;
     border-style: solid;
-    background-color:#D64045;
     display:table;
+}
+
+.abtRow {
+    padding-bottom:15%;
 }
 
 /* About Carousel */
@@ -318,10 +304,9 @@ h4 {
 .blog-title-box {
     border:#000 2px;
     border-style: solid;
-    background-color:#467599;
-    color:#000;
+    background-color:#1d3354;
+    color:#fff;
     font-family:"Montserrat", sans-serif;
-    width: 35%;
     height: auto;
     text-align: center;
     padding-top: 5%;
@@ -390,10 +375,9 @@ h4 {
 .contact-title-box {
     border:#000 2px;
     border-style: solid;
-    background-color:#467599;
-    color:#000;
+    background-color:#1D3354;;
+    color:#fff;
     font-family:"Montserrat", sans-serif;
-    width: 35%;
     height: auto;
     text-align: center;
     padding-top: 5%;
@@ -424,7 +408,7 @@ h4 {
 
 /* Map */
 
-#map { height: 180px;}
+#map { height: 350px;}
 
 /* Back To Top Button */
 #backButton {
@@ -470,23 +454,15 @@ footer {
     font-family: "Montserrat", sans-serif;
     position: relative;
     background-color: #fff;
-    border-bottom: solid;
-    border-top: solid;
+    border: solid;
 }
 
 .footer-box-one {
     position: flex;
-    border-left:solid;
-}
-
-.box-three{
-    border-right:solid;
 }
 
 .footer-box-two {
     border-top: solid;
-    border-left:solid;
-    border-right:solid;
     background-color: #fff;
 }
 
