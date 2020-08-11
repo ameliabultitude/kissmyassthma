@@ -7,7 +7,8 @@ html {
 }
 
 body {
-    background-color: #E9FFF9;;
+    background-color: #E9FFF9;
+    background-image: url('assets/images/asthmalady.jpg');
     margin-left:0;
     margin-right: 0;
 }
@@ -16,6 +17,8 @@ section{
     background-color: #E9FFF9;;
     margin-left:15%;
     margin-right:15%;
+    margin-bottom:15%;
+    border-bottom:solid;
 }
 
 a {
@@ -30,7 +33,9 @@ p {
 
 .margin-box{
     background-color: #fff;
-    border-style: solid;
+    border-top: solid;
+    border-left: solid;
+    border-right:solid;
 }
 
 .h5 {
@@ -464,14 +469,24 @@ h4 {
 footer {
     font-family: "Montserrat", sans-serif;
     position: relative;
+    background-color: #fff;
+    border-bottom: solid;
+    border-top: solid;
 }
 
 .footer-box-one {
     position: flex;
+    border-left:solid;
+}
+
+.box-three{
+    border-right:solid;
 }
 
 .footer-box-two {
-    border-style: solid;
+    border-top: solid;
+    border-left:solid;
+    border-right:solid;
     background-color: #fff;
 }
 
