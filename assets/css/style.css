@@ -38,6 +38,7 @@ p {
 .margin-box{
     background-color: #fff;
     border:solid;
+    border-width:thin;
     padding-bottom:7%;
 
 }
@@ -64,6 +65,7 @@ ul li {
 .navbar {
     color: #000;
     border-style: solid;
+    border-width:thin;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     justify-content: space-between;
@@ -152,6 +154,7 @@ h4 {
 .index-main-box {
     background-color:#9ED8DB;
     border-style: solid;
+    border-width:thin;
     border:#000;
 }
 
@@ -161,6 +164,7 @@ h4 {
     left: -30px;
     background: #E9FFF9;
     border-style: solid;
+    border-width:thin;
 }
 
 .spicyTitle2 {
@@ -168,6 +172,7 @@ h4 {
     top: -30px;
     background: #D64045;
     border-style: solid;
+    border-width:thin;
     padding: 2%;
 }
 
@@ -175,6 +180,7 @@ h4 {
     background-color:#9ED8DB;
     margin-top: 7%;
     border-style: solid;
+    border-width:thin;
     width: 80%;
 }
 
@@ -184,6 +190,7 @@ h4 {
     border-left:solid;
     border-right:solid;
     border-top:solid;
+    border-width:thin;
     width: 100%;
     right: 0px;
 }
@@ -203,6 +210,7 @@ h4 {
 
 .SignUpTitle {
     border-style: solid;
+    border-width:thin;
     background-color:#D64045;
     font-family:"Montserrat", sans-serif;
     float: right;
@@ -232,7 +240,7 @@ h4 {
 }
 
 .about-title-box {
-    border:#000 2px;
+    border-width:thin;
     border-style: solid;
     background-color:#1d3354;
     color:#fff;
@@ -257,6 +265,7 @@ h4 {
 .about-text-box-1 {
     font-family: "Montserrat", sans-serif;
     font-size: small;
+    border-width:thin;
     border-style: solid;
     display:table;
 }
@@ -264,6 +273,7 @@ h4 {
 .about-text-box-2 {
     font-family: "Montserrat", sans-serif;
     font-size: small;
+    border-width:thin;
     border-style: solid;
     display:table;
 }
@@ -271,6 +281,7 @@ h4 {
 .about-text-box-3 {
     font-family: "Montserrat", sans-serif;
     font-size: small;
+    border-width:thin;
     border-style: solid;
     display:table;
 }
@@ -278,6 +289,7 @@ h4 {
 .about-text-box-4 {
     font-family: "Montserrat", sans-serif;
     font-size: small;
+    border-width:thin;
     border-style: solid;
     display:table;
 }
@@ -302,6 +314,7 @@ h4 {
 
 .blog-title-box {
     border:#000 2px;
+    border-width:thin;
     border-style: solid;
     background-color:#1d3354;
     color:#fff;
@@ -313,6 +326,7 @@ h4 {
 }
 
 .scroll-box {
+    border-width:thin;
     border-style: solid;
     margin-left:10%;
     margin-bottom:10%;
@@ -332,6 +346,7 @@ h4 {
     background-color: 	#9ED8DB;
     margin-top: 7%;
     border-style: solid;
+    border-width:thin;
     width: 80%;
 }
 
@@ -339,6 +354,7 @@ h4 {
     background-color: 	#9ED8DB;
     margin-top: 7%;
     border-style: solid;
+    border-width:thin;
     width: 80%;
 }
 
@@ -346,6 +362,7 @@ h4 {
     background-color:#9ED8DB;
     margin-top: 7%;
     border-style: solid;
+    border-width:thin;
     width: 80%;
     margin-bottom:10%;
 }
@@ -353,6 +370,7 @@ h4 {
 .readMore{
     background-color:#D64045!important;
     border-style: solid;
+    border-width:thin;
     font-family: "Montserrat", sans-serif;
     width: 100%;
 }
@@ -372,7 +390,7 @@ h4 {
 }
 
 .contact-title-box {
-    border:#000 2px;
+    border-width:thin;
     border-style: solid;
     background-color:#1D3354;;
     color:#fff;
@@ -397,6 +415,7 @@ h4 {
     color:#000;
     border:#000 2px;
     border-style: solid;
+    border-width:thin;
     padding: 5%;
     background-color:#E9FFF9;
 }
@@ -454,6 +473,7 @@ footer {
     position: relative;
     background-color: #fff;
     border: solid;
+    border-width:thin;
 }
 
 .footer-box-one {
