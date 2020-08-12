@@ -42,8 +42,9 @@ p {
 
 }
 
-.h5 {
+h5 {
     font-family: "Montserrat", sans-serif;
+    text-align: center;
 }
 
 ul {
@@ -97,16 +98,12 @@ h4 {
 }
 
 .KMA-title {
-    font-size: 400%;
+    font-size: 300%;
     font-family: "Montserrat Subrayada", sans-serif;
     text-align: center;
 }
 
 /* Images */
-
-.background-img {
-  
-}
 
 .mask-img {
     padding-right: 10%;
