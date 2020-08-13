@@ -133,7 +133,7 @@ The expected audience of this site are any gender, they will be most likely be i
 * Bugs
     * Never Miss a Post Box floating right on mobile making width of mobile view too wide.
 * Solution
-    * unsolved 9/08/2020
+    * The use of bootstrap coloumns and adjusting the email box
 * Bugs
     * The Modal would not open.
 * Solution
@@ -154,3 +154,7 @@ The expected audience of this site are any gender, they will be most likely be i
     * About page, image and text not aligning as designed.
 * Solution
     * Use of Bootstrap grid system. 
+* Bugs
+    * Blog Hamburger Nav Error
+* Solution
+    * unsolved 12/08/2020
