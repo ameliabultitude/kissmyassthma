@@ -12,6 +12,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+<!-- js extra -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <!--End JavaScript and JQuery-->
 <!--Map and Fonts-->
         <script src="https://kit.fontawesome.com/8145f8be76.js" crossorigin="anonymous"></script>
@@ -20,7 +24,7 @@
 <!--Links for local stylesheets and JS sheets-->
         <link rel="stylesheet" href="assets/css/style.css">
         <script language="JavaScript" type="text/javascript" src="assets/js/custom.js"></script>
-        <script src="assets/js/modal-window.js"></script>
+        <script src="assets/js/spare.js"></script>
 <!--End of links for local stylesheets and JS sheets-->
         <title>Kiss My Assthma</title>
     </head>
@@ -66,20 +70,8 @@
                         <h5>Blogs</h5>
                     </div>
                 </div>
-<!--Scrollable Blog Box-->
-<script>
-$('#exampleModal').on('show.bs.modal', function (event) {
-  var button = $(event.relatedTarget) // Button that triggered the modal
-  var recipient = button.data('whatever') // Extract info from data-* attributes
-  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-  var modal = $(this)
-  modal.find('.modal-title').text('New message to ' + recipient)
-  modal.find('.modal-body input').val(recipient)
-})
-</script>
-
-                <div class="">
+<!--Blog Box-->
+                <div>
                     <div class="container-fluid blogBoxOne">
                         <div class="row">
                             <div class="col-md-7">
@@ -89,56 +81,38 @@ $('#exampleModal').on('show.bs.modal', function (event) {
                             <div class="col-md-5">
                                 <img alt="Mask Image" class="mx-auto featuredImage rounded float-right" src="assets/images/mask.jpg" />
                             </div>
-                            <div id="ex1" class="modal">
-                                <h5>Blog 1</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor, tortor at maximus tristique, ligula massa pretium elit, eget hendrerit nunc diam quis ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dictum magna vitae magna venenatis rutrum. Sed lobortis purus eu facilisis rhoncus. Fusce sit amet malesuada sem. Aenean pulvinar laoreet eros, et fermentum lorem maximus ac. Integer maximus enim vel diam vulputate, a mattis lacus mattis. Mauris risus mauris, pellentesque ut laoreet non, consectetur nec nisl. Mauris tincidunt mi magna, vitae laoreet turpis varius quis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer eget iaculis turpis. Donec id diam congue, elementum ex at, ultricies neque. Praesent ornare turpis nec scelerisque vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla venenatis facilisis risus, id mollis neque accumsan nec.
-
-                                Pellentesque feugiat diam a ex feugiat lobortis. Sed sit amet lectus porttitor tellus aliquet laoreet. Proin nibh justo, tristique ut ullamcorper vel, accumsan hendrerit tellus. Vivamus rhoncus luctus leo pharetra fermentum. Nulla id rhoncus lacus, id posuere ex. Donec faucibus libero eu mattis feugiat. Curabitur ligula ante, mollis non varius vitae, ornare at mauris. Etiam gravida mauris quis ultricies sollicitudin. Pellentesque velit neque, hendrerit eu convallis ac, gravida congue felis. Cras velit lacus, maximus vitae lacinia vel, rhoncus at urna.
-
-                                Nullam quis elementum nisi, eu rhoncus nulla. In lacinia gravida lacus, sit amet dictum tortor laoreet id. Aenean efficitur dignissim suscipit. Sed nec libero non elit volutpat pharetra. Aliquam lobortis viverra sapien in malesuada. Duis hendrerit ultricies porta. Phasellus vitae tortor fermentum, condimentum massa at, sagittis enim. Maecenas placerat venenatis viverra. Donec nulla justo, pretium at luctus a, sollicitudin nec est. Vestibulum hendrerit mauris erat, ut tincidunt nunc mollis ut. Curabitur mi massa, efficitur eu ornare non, consectetur eget ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque vestibulum sed nulla et gravida. Pellentesque aliquam condimentum orci, at aliquet urna.
-
-                                Nullam rutrum dui et hendrerit suscipit. Nulla quis leo semper, facilisis justo et, cursus urna. Aenean tincidunt at tortor a maximus. Sed ipsum enim, bibendum id molestie sed, tincidunt eget ex. Aliquam eget lectus tincidunt erat ullamcorper dignissim in nec quam. Proin tempor dui quis augue malesuada tristique. Aenean nec neque quis quam fermentum fermentum. Curabitur suscipit justo purus.
-
-                                Morbi tempor, augue et mollis vehicula, nulla sem laoreet metus, ac condimentum ex augue non ante. Donec faucibus volutpat erat, at rhoncus mi iaculis lacinia. Etiam odio urna, finibus nec velit a, porta semper tellus. Ut eros sem, feugiat at nisi vitae, aliquet iaculis tortor. Quisque id eleifend nunc. Fusce metus enim, ultrices ut felis quis, semper feugiat est. Proin non convallis magna. Donec aliquet lacinia nisl eget gravida. Fusce sit amet lacus eget eros varius pulvinar ut vel dolor.</p>
-                            <a href="#" rel="modal:close">Close</a>
-                            </div>
-                            <p><a href="#ex1" rel="modal:open" class="btn blogBtn">Read More</a></p>
+<!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                            Launch demo modal
+                            </button>      
                         </div>
                     </div>
-                    <div class="container-fluid blogBoxTwo">
-                        <div class="row">
-                            <div class="col-md-7">
-                                <h3>Blog 2</h3>
-                                <p>Lorem ipsum dolor sit amet, nam magna utinam utamur ut. Mei deleniti ponderum ei. Qui harum maiorum similique ex, sint disputando ea pro, ei graeci probatus eos. Ad assum tollit quidam pri, his facilis dissentiunt ea. Ut assum copiosae mei. Ludus interesset contentiones eos ad, idque augue mel ea.</p>
+                </div>
+<!-- Modal -->
+                <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">My 5 Top Creams</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                             </div>
-                            <div class="col-md-5">
-                                <img alt="Mask Image" class="mx-auto featuredImage rounded float-right" src="assets/images/airPuri.jpg" />
+                            <div class="modal-body">
+                                <p>Asthma and Eczema normally come hand in hand, so if you have asthma, chances are you may have a form of eczema at some point. Eczema is a completely manageable skin condition where there are small dry, lesions on the skin. Personally, I have eczema on my trunk, neck arms and legs, and I have used many different creams to help and offer moisturiser and a soother. 
+                                1.	Aveeno Dermexa Emollient – I personally use this on my face. This is always my go to cream for when I am having a flare up on my face. I find it creamy, thick and soothing. It is sold in most high-street shops, online and in pharmacies. Dermexa offer a body wash, balm, hand-cream and a daily emollient. Aveeno is based on the use of finely milled colloidal oatmeal to manage dry skin conditions. Mayo Clinic Dermatologists recognised the work done by Aveeno Scientists and that is when Aveeno was born as a brand. Not only are these cream oat based, they are eco-friendly! 
+                                2.	Zerobase – This is what I use on my trunk and limb. This is a prescribed cream which moisturises and protects dry skin. I find this a nice thick cream where a small bit goes a long way. This cream can be used in a shower to protect, a bath and for general use. Although I personally get along with Zerobase, it does contain 11% liquid paraffin which may cause irritation on other people’s skin. Any cream with paraffin or steroids in, discuss with a doctor before. As earlier stated, it is a prescribed cream which your doctor or dermatologist will discuss if necessary.
+                                3.	E45 – E45 is another shop bought cream; high-street, online or pharmacies. This is a cream I tend to purchase if I cannot get hold of my Aveeno. E45 contains paraffin also, but it does not contain steroids. This offers a soothing, moisturiser to dry or irritated skin. This is a cream I can always rely on if needed. 
+                                These are my top three creams that I use for my eczema. Please remember although these creams work well on my skin, it varies on each person so patch test creams always and read the ingredients. If there is something you are flaring up with, keep note and always look in a creams ingredients before you purchase! </p>
                             </div>
-                            <div id="ex2" class="modal">
-                                <p>Thanks for clicking. That felt good.</p>
-                                <a href="#" rel="modal:close">Close</a>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                             </div>
-                            <p><a href="#ex1" rel="modal:open" class="btn blogBtn">Read More</a></p>
-                        </div>
-                    </div>
-                    <div class="container-fluid blogBoxThree">
-                        <div class="row">
-                            <div class="col-md-7">
-                                <h3>Blog 3</h3>
-                                <p>Lorem ipsum dolor sit amet, nam magna utinam utamur ut. Mei deleniti ponderum ei. Qui harum maiorum similique ex, sint disputando ea pro, ei graeci probatus eos. Ad assum tollit quidam pri, his facilis dissentiunt ea. Ut assum copiosae mei. Ludus interesset contentiones eos ad, idque augue mel ea.</p>
-                            </div>
-                            <div class="col-md-5">
-                                <img alt="Mask Image" class="mx-auto featuredImage rounded float-right" src="assets/images/xolair.jpg" />
-                            </div>
-                            <div id="ex3" class="modal">
-                            <p>Thanks for clicking. That felt good.</p>
-                            <a href="#" rel="modal:close">Close</a>
-                            </div>
-                            <p><a href="#ex1" rel="modal:open" class="btn blogBtn">Read More</a></p>
                         </div>
                     </div>
                 </div>
             </div>
+<!-- photo viewer -->
             <div id="photo-viewer"></div>
             <div id="thumbnails">
                 <a href="assets/images/view1.jpg" class="thumb active" title="View"></a>
