@@ -32,6 +32,15 @@ The expected user of this website could be an any aged, male/female, chronic ast
 
 # Features 
 Features planned, implimented and outlined for later development.
+## Planned JAVASCRIPT Features
+* Four Pop Up Modal Boxes
+* Image Carousel
+* Google Maps API
+* Back to Top button
+* Image Viewer
+* Navigation Bar/Hamburger
+* Login Authentication 
+* To-Do List
 ## Planned Features 
 * README file 
 * Mock Ups
@@ -73,6 +82,7 @@ Features planned, implimented and outlined for later development.
 * Deployed
     * Hosted on GitHub Pages
 * Google Maps API
+
 
 # Technology/Sites used
 * HTML - 

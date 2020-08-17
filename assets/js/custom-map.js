@@ -29,7 +29,7 @@
           }
         ];
 
-        // Create markers.
+// Creating markers
         for (var i = 0; i < features.length; i++) {
           var marker = new google.maps.Marker({
             position: features[i].position,
