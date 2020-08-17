@@ -1,4 +1,4 @@
-// Creating a "close" button and append it to each list item
+// Close button
 var myNodelist = document.getElementsByTagName("LI");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
@@ -9,7 +9,7 @@ for (i = 0; i < myNodelist.length; i++) {
   myNodelist[i].appendChild(span);
 }
 
-// Click on a close button to hide the current list item
+// Close button to hide the current list item
 var close = document.getElementsByClassName("close");
 var i;
 for (i = 0; i < close.length; i++) {
@@ -19,7 +19,7 @@ for (i = 0; i < close.length; i++) {
   }
 }
 
-// Adding a symbol when clicking on a list item
+// Symbol when clicking on a list item
 var list = document.querySelector('ul');
 list.addEventListener('click', function(ev) {
   if (ev.target.tagName === 'LI') {

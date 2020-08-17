@@ -453,6 +453,10 @@ a.active{
     text-align: center;
 }
 
+.addBtn {
+    background-color:#D64045;
+}
+
 #addBtn {
     border:#000 2px;
     border-width:thin;
