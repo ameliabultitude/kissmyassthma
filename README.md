@@ -85,35 +85,40 @@ Features planned, implimented and outlined for later development.
 
 
 # Technology/Sites used
-* HTML - 
+## Languages 
+* [HTML](https://www.w3schools.com/html/) - 
     * The language HTML was used for structure.
-* CSS -
+* [CSS](https://www.w3schools.com/css/)-
     * The language CSS was used for design.
-* JAVASCRIPT - 
+* [JAVASCRIPT](https://www.w3schools.com/js/default.asp) - 
     * The language JS was usedfor interactivity.
-* Google Chrome -
+## Developer tools
+* [Google Chrome](https://developers.google.com/web/tools/chrome-devtools) -
     * Chrome was used for developer tools and as a viewing browser.
-* Firefox -
+* [Firefox](https://developer.mozilla.org/en-US/docs/Tools) -
     * Firefox was used for developer tools and as a viewing browser
-* Safari -
+## Additional
+* [Mailchimp](https://mailchimp.com/) - 
+    * For sending out sign up emails.
+* [Safari](https://www.apple.com/uk/safari/) -
     * Safari was used as a viewing browser.
-* Google -
+* [Google](https://www.google.co.uk/) -
     * Google was used throughout development for research.
-* Bootstrap -
+* [Bootstrap](https://getbootstrap.com/) -
     * Bootstrap was used for the grid system and the HTML, CSS and  JAVASCRIPT frameworks.
-* Visual Studio Code - 
+* [Visual Studio Code](https://code.visualstudio.com/) - 
     * VS Code IDE was used for overall development.
-* GitHub - 
+* [GitHub](https://github.com/) - 
     * GitHub was used to host the repository.
-* GitHub Pages -
+* [GitHub Pages](https://pages.github.com/) -
     * GitHub Pages allowed for the website to be hosted.
-* Google Fonts -
+* [Google Fonts](https://fonts.google.com/) -
     * Google Fonts were used for importing design fonts throughout the website.
-* Font Awesome - 
+* [Font Awesome](https://fontawesome.com/) - 
     * Font Awesome were used for importing icons in throughout the website.
-* Slack - 
+* [Slack](https://slack.com/intl/en-gb/) - 
     * Slack was used as community forum for help and support if and when needed.
-* Am I Responsive - 
+* [Am I Responsive](http://ami.responsivedesign.is/) - 
     * Am I Responsive was used for testing the responsiveness of the website.
 
 # Testing 
@@ -168,3 +173,24 @@ The expected audience of this site are any gender, they will be most likely be i
     * Blog Hamburger Nav Error
 * Solution
     * unsolved 12/08/2020
+
+# Deplopyment 
+## GitHub Deplopyment
+To allow my project to be viewed by others, I took the following steps
+1. On GitHub, their internal navigation allowed me to go onto [settings](https://github.com/ameliabultitude/kissmyassthma/settings).
+2. Once in the settings tab, I scrolled down to the GitHub Pages section.
+3. On this section, you can select 'Master Branch' for the source.
+4. This ensured others could see my pages on live updates.
+
+## Google Maps Deplopyment
+This allowed me to use an API. I merged it into my HTML for the map to be seen on my site.
+1. Using ['Getting Started with Google Maps Platform'](https://developers.google.com/maps/documentation/javascript/overview) I was able to set up an account.
+2. After I created an account, I then was able to create an API Key and set the preferences and restrictions for it. 
+3. This process can be copied for others to intregrate google maps into their html.
+
+## Mailchimp Deplopyment
+I used Mailchimp to allow automated emails to be sent from an extrenal platform to new members.
+1. I created an account with Mailchimp which can be done [here](https://login.mailchimp.com/signup/).
+2. I followed the page of adding a signup form to your page, which can be followed [here](https://mailchimp.com/help/add-a-signup-form-to-your-website/). This allowed an embedded form code. 
+3. When signed up you can chose if to do a free account or a paid account. Personally I used a free account. 
+
