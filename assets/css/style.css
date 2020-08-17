@@ -373,6 +373,7 @@ h4 {
 }
 
 /* Blog The Modal */
+
 .modal {
     display: block;
     justify-content: center;
@@ -399,31 +400,12 @@ h4 {
 
 /* Blog the Viewer */
 
-#photo-viewer{
-    position: relative;
-    height: 300px;
-    overflow: hidden;
+.viewPic1,
+.viewPic2,
+.viewPic3 {
+    width: 60%;
+    height: auto;
 }
-
-#photo-viewer .is-loading:after{
-    content: url(images/load.gif);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-}
-
-#photo-viewer img{
-    position: absolute;
-    max-width: 100%;
-    max-height: 100%;
-    top: 50%;
-    left: 50%;
-}
-
-a.active{
-    opacity: 0.3;
-}
-
 /* To Do Page */
 
 .todo-title-box {
