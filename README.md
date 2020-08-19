@@ -8,6 +8,12 @@ Created by Amelia Bultitude
 # UX
 (insert image from am i responsive at finish)
 
+## Main aims
+* To offer support and reassurance for other people going through the same problems and conditions.
+* To teach others the seriousness of the condition.
+* To create a safe place and community for people.
+* To create a fully responsive website on computers and mobile devices and implimenting Javascript. 
+* To create an easy useable and navigational website for all users.
 ## Users
 The expected user of this website could be an any aged, male/female, chronic asthma sufferer or friends and family of those. They will be from any English reading countries, online who are seeking advice and personal knowledge.
 ## User Stories
@@ -160,7 +166,7 @@ The expected audience of this site are any gender, they will be most likely be i
 * Bugs
     * Go to top of page button always in view, rather than only appearing once scrolling.
 * Solution
-    * unsolved 11/08/2020.
+    * unsolved 11/08/2020. Trialling different buttons using different javascript implimentions to find a solution, 18/08/2020.
 * Bugs
     * Trialling out a new button for go to top, isn't appearing at all.
 * Solution
@@ -172,7 +178,7 @@ The expected audience of this site are any gender, they will be most likely be i
 * Bugs
     * Blog Hamburger Nav Error
 * Solution
-    * unsolved 12/08/2020
+    * Syntax error.
 
 # Deplopyment 
 ## GitHub Deplopyment
