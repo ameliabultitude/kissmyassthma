@@ -16,10 +16,22 @@ Created by Amelia Bultitude
 * To create an easy useable and navigational website for all users.
 ## Users
 The expected user of this website could be an any aged, male/female, chronic asthma sufferer or friends and family of those. They will be from any English reading countries, online who are seeking advice and personal knowledge.
-## User Stories
 * A sufferer of chronic asthma looking for a community and/or support.
 * Friends/Family that know someone who suffers and would like more understanding.
 * Researchers looking for understanding and personal, real like experience. 
+## User Stories
+This project has multiple user stories, these can be for existing users and new users. Users may be using computers, tablets or mobile devices. 
+### New Users 
+* I am a user who has never understood the seriousness of asthma. 
+* I am a user who has asthma myself, and would like a community. 
+* I am a user who would like to learn more to help others.
+* I am a user who would like to use this site to teach others.
+### Existing Users
+* I am a user who has been using the site for knowledge.
+* I am a user who has been using the site for support for others.
+* I am a user who has used this site for mental support.
+### Mobile Device / iPad Users
+* I am a user who does not own a computer, I will only be viewing on max screen size a tablet. I would like the site to be fully functional and UX Friendly. 
 ## Design 
 * Color Scheme chosen is made up of five colours. 
     * #d64045
@@ -37,7 +49,26 @@ The expected user of this website could be an any aged, male/female, chronic ast
 * The website has four main pages, all internally linked.
 
 # Features 
-Features planned, implimented and outlined for later development.
+This outlines the features used on each page and the features used on every page. 
+## Consistent
+* Hamburger Responsive Navbar
+* Responsive Footer
+* Margin Box
+## Index
+* Sign up form
+## 
+## Blogs
+
+## contact
+
+## About
+
+## To Do 
+
+## Features Left To Impliment
+
+(unfinished)
+
 ## Planned JAVASCRIPT Features
 * Four Pop Up Modal Boxes
 * Image Carousel
