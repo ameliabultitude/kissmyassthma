@@ -26,11 +26,8 @@
                 emailjs.init("user_WisMhveC7LcRC4U2yrsjs");
             })();
         </script>
-        <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
         <!--Links for local stylesheets and JS sheets-->
         <link rel="stylesheet" href="assets/css/style.css">
-        <script language="JavaScript" type="text/javascript" src="assets/js/custom.js"></script>
-        <script src="assets/js/modal-window.js"></script>
         <!--End of links for local stylesheets and JS sheets-->
         <title>Kiss My Assthma</title>
     </head>
@@ -96,18 +93,10 @@
                     <div class="col-sm-3 col-sm-offset-1 spicyTitle2 text-right">
                         <h3>Never Miss a Post</h3>
                     </div>
-                    <form>
-                        <div class="row signUpForm">
-                            <div class="col">
-                            <input type="text" class="form-control" placeholder="First name">
-                            </div>
-                            <div class="col">
-                            <input type="text" class="form-control" placeholder="Last name">
-                            </div>
-                        </div>
-                        <div class="signUpBtn">
-                            <button type="button" class="btn btn-outline-dark">Sign Up</button>
-                        </div>
+                    <form class="signUpForm" onsubmit="return sendMail(this);">
+                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                        <button type="submit" class="btn btn-outline-dark center-block signUpBtn">Sign Up</button>
                     </form>
                 </div>
             <!--End of Sign Up Box--> 
@@ -167,4 +156,5 @@
             </div>
         </div>
     </footer>
+    <script src="assets/js/signUp.js"></script>
 </html>
