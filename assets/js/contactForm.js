@@ -1,7 +1,8 @@
 function sendMail(contactForm) {
-    emailjs.send("gmail", "kissmyassthma", {
+    emailjs.send("gmail", "kmacontact", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
+        "comments": contactForm.comments.value
     })
     .then(
         function(response) {
@@ -11,6 +12,5 @@ function sendMail(contactForm) {
             console.log("FAILED", error);
         }
     );
+    return false;  // To block from loading a new page
 }
-
-console.log("hello");
