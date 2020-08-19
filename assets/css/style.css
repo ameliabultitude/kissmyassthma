@@ -97,6 +97,7 @@ h4 {
 
 .title {
     padding-top: 5%;
+    padding-bottom: 4%;
 }
 
 .KMA-title {
@@ -158,6 +159,10 @@ h4 {
     border:#000;
 }
 
+.indexSection1 {
+    padding-bottom:4%;
+}
+
 .spicyTitle {
     padding: 2%;
     top: -30px;
@@ -168,7 +173,7 @@ h4 {
 }
 
 .spicyTitle2 {
-    left: -3px;
+    left: -16px;
     top: -30px;
     background: #D64045;
     border-style: solid;
@@ -219,15 +224,14 @@ h4 {
     margin-top: 10%;
 }
 
-.formHead{
-    padding-top:2%;
+.signUpForm {
+    margin-top:3%;
 }
 
-#mc_embed_signup{ 
-    clear:left; 
-    font:14px;
-    font-family: "Montserrat", sans-serif;
-    width:100%;
+.signUpBtn {
+    text-align: center;
+    margin-top:3%;
+    padding-bottom:3%;
 }
 /* About */
 
@@ -621,4 +625,9 @@ footer {
 .address-ul,
 .legal-ul {
     padding-left:0;
+}
+
+.footerContainer{
+    margin-top:5%;
+    position: sticky;
 }
