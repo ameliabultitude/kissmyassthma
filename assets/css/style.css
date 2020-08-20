@@ -331,6 +331,10 @@ h4 {
 
 /* Blog Page */
 
+button {
+    z-index: 3;
+}
+
 .blog {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -405,19 +409,31 @@ h4 {
     display: block;
     justify-content: center;
     position: fixed;
-    margin-left: 25%;
+    margin-left: 5%;
     z-index: 2;
     padding-left:0px;
     height:70%;
     margin-top:10%;
+    max-width: 100%;
 }
 
 .modal-backdrop {
     z-index: 1;
 }
 
+.modal-dialog-centered {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    min-height:calc(100% - (1.75rem * 2));
+}
+
 .modal-content {
     margin:3.5%;
+    width: 100%;
 }
 
 .close-modal {
@@ -657,4 +673,8 @@ footer {
 .footerContainer{
     margin-top:5%;
     position: sticky;
+}
+
+.zfighter {
+    z-index: 4;
 }
