@@ -56,28 +56,27 @@ This outlines the features used on each page and the features used on every page
 * Margin Box
 ## Index
 * Sign up form
-## 
+* Featured box
+* EmailJS linked
+* Popup text
 ## Blogs
-
-## contact
-
+* Boxes of blogs to choose from and read
+* Modal Boxes onclick()
+* Photo Viewer (js)
+## Contact
+* Contact form
+* Google Maps with pointers
+* Popup text
+* EmailJS linked
 ## About
-
+* Image
+* Four boxes of surrouding text
+* Carousel 
 ## To Do 
-
+* Using JS a todo list allowing adding and deleting independently
 ## Features Left To Impliment
+* Back to top button
 
-(unfinished)
-
-## Planned JAVASCRIPT Features
-* Four Pop Up Modal Boxes
-* Image Carousel
-* Google Maps API
-* Back to Top button
-* Image Viewer
-* Navigation Bar/Hamburger
-* Login Authentication 
-* To-Do List
 ## Planned Features 
 * README file 
 * Mock Ups
@@ -101,25 +100,10 @@ This outlines the features used on each page and the features used on every page
 * Google Maps API
 * JS Modals
 * JS Hamburger Navbar
-## Inplimented Features
-* README file 
-* Mock Ups
-* Color Scheme
-* Custom Logo
-* Bootstrap - HTML CSS and JAVASCRIPT 
-    * Grid System 
-* Responsive Design
-    * Mobile First
-* UX Elements
-    * User Flow 
-    * Animations 
-    * Transitions
-* GitHub
-    * Remote Repository
-* Deployed
-    * Hosted on GitHub Pages
-* Google Maps API
-
+* To Do list (javascript)
+* Image Viewer on blogs
+* Popup text
+* EmailJS
 
 # Technology/Sites used
 ## Languages 
@@ -224,10 +208,4 @@ This allowed me to use an API. I merged it into my HTML for the map to be seen o
 1. Using ['Getting Started with Google Maps Platform'](https://developers.google.com/maps/documentation/javascript/overview) I was able to set up an account.
 2. After I created an account, I then was able to create an API Key and set the preferences and restrictions for it. 
 3. This process can be copied for others to intregrate google maps into their html.
-
-## Mailchimp Deplopyment
-I used Mailchimp to allow automated emails to be sent from an extrenal platform to new members.
-1. I created an account with Mailchimp which can be done [here](https://login.mailchimp.com/signup/).
-2. I followed the page of adding a signup form to your page, which can be followed [here](https://mailchimp.com/help/add-a-signup-form-to-your-website/). This allowed an embedded form code. 
-3. When signed up you can chose if to do a free account or a paid account. Personally I used a free account. 
 
