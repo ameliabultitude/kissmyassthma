@@ -104,6 +104,7 @@ This outlines the features used on each page and the features used on every page
 * Image Viewer on blogs
 * Popup text
 * EmailJS
+* Back to Top button
 
 # Technology/Sites used
 ## Languages 
