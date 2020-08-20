@@ -97,14 +97,8 @@
                     <form class="signUpForm" onsubmit="return sendMail(this);">
                         <input type="text" name="name" class="form-control formOne" id="name" placeholder="First Name" required/>
                         <input type="text" name="emailaddress" class="form-control formOne" id="emailaddress" placeholder="Email" required/>
-                        <button type="submit" class="btn btn-outline-dark center-block signUpBtn" data-toggle="modal" data-target=".bd-example-modal-sm">Sign Up</button>
-                        <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-sm">
-                            <div class="modal-content">
-                            
-                            </div>
-                        </div>
-                        </div>
+                        <p id="demo" style="display: none">Thanks for signing up!</p> 
+                        <button type="submit" class="btn btn-outline-dark center-block signUpBtn" onclick="toggleText()">Sign Up</button>
                     </form>
                 </div>
             <!--End of Sign Up Box--> 
@@ -164,6 +158,6 @@
             </div>
         </div>
     </footer>
-    <script src="assets/js/modalOne.js"></script>
+    <script src="assets/js/popUpText.js"></script>
     <script src="assets/js/signUp.js"></script>
 </html>
