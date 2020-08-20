@@ -50,7 +50,7 @@ This project has multiple user stories, these can be for existing users and new 
 
 # Features 
 This outlines the features used on each page and the features used on every page. 
-## Consistent
+## Consistent through out site
 * Hamburger Responsive Navbar
 * Responsive Footer
 * Margin Box
