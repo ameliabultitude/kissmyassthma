@@ -230,9 +230,28 @@ h4 {
 
 .signUpBtn {
     text-align: center;
-    margin-top:3%;
-    padding-bottom:3%;
+    margin-top:2%;
+    margin-bottom:5%;
+    margin-left:45%;
 }
+
+.formOne{
+    text-align: center;
+    margin-left:15%;
+    margin-bottom:3%;
+    width:70%;
+}
+
+.takeMeBtn{
+    border-style: solid;
+    border-width: thin;
+    background-color:#D64045;
+    font-family: "Montserrat", sans-serif;
+    padding: 2%;
+    margin-left:42%;
+    margin-bottom:5%;
+}
+
 /* About */
 
 .about {
