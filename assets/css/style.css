@@ -577,6 +577,18 @@ ul li.checked::before {
     background-color:#D64045;
 }
 
+.submitTwo{
+    background-color:#D64045;
+    margin-left:43%;
+    margin-top:5%;
+}
+
+.CF1,
+.CF2,
+.CF3{
+    text-align: center;
+}
+
 /* Map */
 
 #map { height: 350px;}

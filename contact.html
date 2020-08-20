@@ -79,10 +79,11 @@
 <!--End of Title-->
 <!--Contact Form-->
                 <form onsubmit="return sendMail(this);">
-                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                    <textarea rows="5" name="comments" class="form-control" id="comments" placeholder="Comments" required></textarea>
-                    <button type="submit" class="btn btn-secondary center-block">Submit</button>
+                    <input type="text" name="name" class="form-control CF1" id="fullname" placeholder="Name" required/>
+                    <input type="text" name="emailaddress" class="form-control CF2" id="emailaddress" placeholder="Email" required/>
+                    <textarea rows="5" name="comments" class="form-control CF3" id="comments" placeholder="Comments" required></textarea>
+                    <p id="demo" style="display: none">Thanks for your comments, we will respond shortly.</p>  
+                    <button type="submit" class="btn btn-secondary center-block submitTwo" onclick="toggleText()">Submit</button>
                 </form>
 <!--End of Contact Form-->
                 </div>
@@ -97,7 +98,7 @@
     </body>
     <footer class="mainfooter text-center" role="contentinfo">
         <div class="footer-middle">
-            <div class="container">
+            <div class="container footerContainer">
                 <div class="row">
                     <div class="col-md-3 col-sm-6">
                     <!--Column1-->
@@ -149,4 +150,5 @@
         </div>
     </footer>
     <script src="assets/js/contactForm.js"></script>
+    <script src="assets/js/popUpText.js"></script>
 </html>

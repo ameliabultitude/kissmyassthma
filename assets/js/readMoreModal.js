@@ -1,4 +1,4 @@
-// JS opening modal function
+// JS opening modal function to opening the modal so readers can read more of the text.
 $(function() {
     $('#exampleModal').on('show.bs.modal', function(event) {
         var button = $(event.relatedTarget);

@@ -53,11 +53,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
                         <a class="nav-link" href="about.html">About</a>
                         <a class="nav-link" href="blog.html">Blogs</a>
                         <a class="nav-link" href="todo.html">To Do</a>
-                        <a class="nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                         <a class="nav-link" target="_blank" href="wwww.facebook.com"><i class="fab fa-facebook-f"></i></a>
                         <a class="nav-link" target="_blank" href="www.pinterest.com"><i class="fab fa-pinterest-p"></i></a>
                         <a class="nav-link" target="_blank" href="www.instagram.com"><i class="fas fa-hashtag"></i></a>
@@ -76,8 +76,9 @@
                     </div>
                     <div class="row">
                         <div class="col-md-7">
-                            <h3>New Blog</h3>
-                            <p>Asthma and Eczema normally come hand in hand, so if you have asthma, chances are you may have a form of eczema at some point. Eczema is a completely manageable skin condition where there are small dry, lesions on the skin. Personally, I have eczema on my trunk, neck arms and legs, and I have used many different creams to help and offer moisturiser and a soother.</p>
+                            <h3>New Blog // Do I Have To!?</h3>
+                            <p>With the new rule coming in about wearing a mask in public areas now in place. Lots of people have something to say about it. Everybody should be wearing a mask, including those with Asthma.
+                            Yes it may feel a bit stuffy on your face, but with well ventilated masks, breathing will not be a problem...</p>
                         </div>
                         <div class="col-md-5">
                             <img alt="Mask Image" class="mx-auto featuredImageOne rounded float-right" src="assets/images/mask.jpg" />
@@ -89,18 +90,18 @@
         <!-- End of Feature Box Section-->
         </section>
         <section class="sectionSpinOff col-12">
-                <!--Sign Up Box-->
-                <div class="spicyBox2">
-                    <div class="col-sm-3 col-sm-offset-1 spicyTitle2 text-right">
-                        <h3>Never Miss a Post</h3>
-                    </div>
-                    <form class="signUpForm" onsubmit="return sendMail(this);">
-                        <input type="text" name="name" class="form-control formOne" id="name" placeholder="First Name" required/>
-                        <input type="text" name="emailaddress" class="form-control formOne" id="emailaddress" placeholder="Email" required/>
-                        <p id="demo" style="display: none">Thanks for signing up!</p> 
-                        <button type="submit" class="btn btn-outline-dark center-block signUpBtn" onclick="toggleText()">Sign Up</button>
-                    </form>
+            <!--Sign Up Box-->
+            <div class="spicyBox2">
+                <div class="col-sm-3 col-sm-offset-1 spicyTitle2 text-right">
+                    <h3>Never Miss a Post</h3>
                 </div>
+                <form class="signUpForm" onsubmit="return sendMail(this);">
+                    <input type="text" name="name" class="form-control formOne" id="name" placeholder="First Name" required/>
+                    <input type="text" name="emailaddress" class="form-control formOne" id="emailaddress" placeholder="Email" required/>
+                    <p id="demo" style="display: none">Thanks for signing up!</p> 
+                    <button type="submit" class="btn btn-outline-dark center-block signUpBtn" onclick="toggleText()">Sign Up</button>
+                </form>
+            </div>
             <!--End of Sign Up Box--> 
         </section>
     </body>
