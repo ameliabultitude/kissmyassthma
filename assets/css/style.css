@@ -521,7 +521,7 @@ ul li.checked::before {
 }
 
 .header {
-  background-color: #9ED8DB
+  background-color: #9ED8DB;
   padding: 30px 40px;
   color: white;
   text-align: center;
@@ -627,6 +627,11 @@ footer {
     border: solid;
     border-width:thin;
 }
+.footer.pad:hover{
+    color:#fff;
+    text-decoration: none;
+
+}
 
 .footer-box-one {
     position: flex;
@@ -658,3 +663,12 @@ footer {
     z-index: 4;
 }
 
+footer ul li:hover{
+    text-decoration: none;
+    background:#fff;
+}
+
+footer ul li {
+    text-decoration: none;
+    background:#fff;
+}
