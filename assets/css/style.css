@@ -464,83 +464,73 @@ button {
     padding-bottom: 5%;
 }
 
-#myInput {
-    border:#000 2px;
-    border-width:thin;
-    border-style: solid;
-    background-color:#fff;
-    color:#000;
-    font-family:"Montserrat", sans-serif;
-    margin-left:36%;
+.input_div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
 }
 
-#myUL{
+.input_div .input{
+    padding: 0.5rem 1rem;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color:#9ED8DB;
+    width:450px;
+    font-size:1.15rem;
+    margin: 0.25rem;
+    border-radius: 25px;
+}
+
+.addButton{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color:#9ED8DB;
+    color: #1D3354;
+    margin: 0.25px;
+    cursor: pointer;
+}
+
+.addButton:hover{
+    opacity: 0.7;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    margin-top: 2rem;
 }
 
-.addBtn {
-    background-color:#D64045;
+.item{
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid #fff;
 }
 
-#addBtn {
-    border:#000 2px;
-    border-width:thin;
-    border-style: solid;
-    background-color:#1d3354;
+.item_input{
+    background: none;
+    outline: none;
     color:#fff;
+    border: none;
+    width: 350px;
+    font-size: 1.4rem;
+}
+
+.editButton{
+    font-size: 1.4rem;
+    margin: 0 0.75rem;
     font-family:"Montserrat", sans-serif;
-}
-
-ul li {
-  cursor: pointer;
-  position: relative;
-  padding: 12px 8px 12px 40px;
-  background: #eee;
-  font-size: 18px;
-  transition: 0.2s;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-ul li:nth-child(odd) {
-  background: #f9f9f9;
-}
-
-ul li:hover {
-  background: #ddd;
-}
-
-ul li.checked {
-  background: #888;
-  color: #fff;
-  text-decoration: line-through;
-}
-
-ul li.checked::before {
-  content: '';
-  position: absolute;
-  border-color: #fff;
-  border-style: solid;
-  border-width: 0 2px 2px 0;
-  top: 10px;
-  left: 16px;
-  transform: rotate(45deg);
-  height: 15px;
-  width: 7px;
-}
-
-.close {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 12px 16px 12px 16px;
-}
-
-.close:hover {
-  background-color: #f44336;
-  color: white;
+    background: none;
+    outline: none;
+    color: #000;
+    border:none;
 }
 
 /* Contact Page */
@@ -601,44 +591,6 @@ ul li.checked::before {
 
 #map { height: 350px;}
 
-/* Back To Top Button */
-#backButton {
-  display: inline-block;
-  background-color: #D64045;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  border-radius: 4px;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  transition: background-color .3s, 
-    opacity .5s, visibility .5s;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 1000;
-}
-#backButton::after {
-  content: "\f077";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 2em;
-  line-height: 50px;
-  color: #fff;
-}
-#backButton:hover {
-  cursor: pointer;
-  background-color: #333;
-}
-#backButton:active {
-  background-color: #555;
-}
-#backButton.show {
-  opacity: 1;
-  visibility: visible;
-}
-
 /* Footer Elements */
 
 footer {
@@ -678,3 +630,4 @@ footer {
 .zfighter {
     z-index: 4;
 }
+

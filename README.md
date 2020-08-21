@@ -144,14 +144,9 @@ This outlines the features used on each page and the features used on every page
     * Am I Responsive was used for testing the responsiveness of the website.
 
 # Testing 
-Throughout my project, I put my site through many tests to ensure it worked correctly. The tests I ran were...
-* Checking flow throughout the page with buttons in nav bar.
-* Checking flow throughout the page with logo href.
-* Checking my page was responsive throughout, on every device screen, portrait and landscape.
-* Checking footer bar buttons href, linking to outer sites.
-* Checking that my form has required settings and that it includes an email attribute.
-* Checking every change made to the site in my IDE as I did it to ensure it was functional.
-* Running site through HTML Validator and CSS Validator.
+Throughout my project, I put my site through many tests to ensure it worked correctly. The tests I ran are explained further on another page.
+
+[Please Click Here To See](testing.md)
 
 # Users
 The expected audience of this site are any gender, they will be most likely be in close contact with others or dealing themselves with severe brittle asthma. 
@@ -159,8 +154,6 @@ The expected audience of this site are any gender, they will be most likely be i
 * An individual looking for a community and support from others going through the same thing.
 * A person who would like to learn more about asthma from a personal aspect.
 * A researcher looking for a personal view and take on asthma. 
-# User Scenarios
-* 
 
 # Bugs During Development
 * Bugs
