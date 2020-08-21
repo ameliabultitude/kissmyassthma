@@ -463,74 +463,101 @@ button {
     padding-top: 5%;
     padding-bottom: 5%;
 }
-
-.input_div{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
+* {
+  box-sizing: border-box;
 }
 
-.input_div .input{
-    padding: 0.5rem 1rem;
-    height: 50px;
-    outline: none;
-    border: none;
-    background-color:#9ED8DB;
-    width:450px;
-    font-size:1.15rem;
-    margin: 0.25rem;
-    border-radius: 25px;
+ul {
+  margin: 0;
+  padding: 0;
 }
 
-.addButton{
-    height: 50px;
-    width: 50px;
-    border-radius: 25px;
-    outline: none;
-    border: none;
-    background-color:#9ED8DB;
-    color: #1D3354;
-    margin: 0.25px;
-    cursor: pointer;
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-.addButton:hover{
-    opacity: 0.7;
+ul li:hover {
+  background: #ddd;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 2rem;
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
 }
 
-.item{
-    padding: 0.5rem;
-    margin-bottom: 1.5rem;
-    border-bottom: 4px solid #fff;
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
 }
 
-.item_input{
-    background: none;
-    outline: none;
-    color:#fff;
-    border: none;
-    width: 350px;
-    font-size: 1.4rem;
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
 }
 
-.editButton{
-    font-size: 1.4rem;
-    margin: 0 0.75rem;
-    font-family:"Montserrat", sans-serif;
-    background: none;
-    outline: none;
-    color: #000;
-    border:none;
+.close:hover {
+  background-color: #1D3354;
+  color: white;
+}
+
+.header {
+  background-color: #9ED8DB
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background-color:#9ED8DB;
+  color: #000;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
 }
 
 /* Contact Page */

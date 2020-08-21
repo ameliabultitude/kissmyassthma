@@ -23,7 +23,6 @@
 <!--Links for local stylesheets and JS sheets-->
         <link rel="stylesheet" href="assets/css/style.css">
         <script language="JavaScript" type="text/javascript" src="assets/js/custom.js"></script>
-        <script src="assets/js/todo.js"></script>
 <!--End of links for local stylesheets and JS sheets-->
         <title>Kiss My Assthma</title>
     </head>
@@ -72,17 +71,16 @@
                 </div>
 <!--End of Title-->
 <!--To Do List Input-->
-                <div class="input_div">
-                    <input class="input" type="text" placeholder="Try adding your own To Do...">
-                    <button class="addButton"><i class="fas fa-plus"></i></button>
-                </div>
-                <div class="container">
-                    <div class="item">
-                        <input type="text" class="item_input" disabled>
-                        <button class="editButton">Edit</button>
-                        <button class="removeButton">Remove</button>
+                <div id="myDIV" class="header">
+                    <h2></h2>
+                    <input type="text" id="myInput" placeholder="Title...">
+                    <span onclick="newElement()" class="addBtn">Add</span>
                     </div>
-                </div>
+
+                    <ul id="myUL">
+                        <li class="checked">Breathe</li>
+                        <li>Preventor</li>
+                    </ul>
 <!--End of List-->
             </div>
         </section>
@@ -140,4 +138,5 @@
             </div>
         </div>
     </footer>
+     <script src="assets/js/todo.js"></script>
 </html>
