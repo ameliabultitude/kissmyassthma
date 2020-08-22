@@ -194,13 +194,9 @@ The expected audience of this site are any gender, they will be most likely be i
 * Solution
     * Use of Bootstrap allowed the heading and sub heading to appear on the carousel. 
 * Bugs
-    * Go to top of page button always in view, rather than only appearing once scrolling.
-* Solution
-    * unsolved 11/08/2020. Trialling different buttons using different javascript implimentions to find a solution, 18/08/2020.
-* Bugs
     * Trialling out a new button for go to top, isn't appearing at all.
 * Solution
-    * unsolved 11/08/2020.
+    * Changing javascript to call different ids.
 * Bugs
     * About page, image and text not aligning as designed.
 * Solution
@@ -209,6 +205,10 @@ The expected audience of this site are any gender, they will be most likely be i
     * Blog Hamburger Nav Error
 * Solution
     * Syntax error.
+* Bugs
+    * Unable to edit text inside modal.
+* Solution
+    * There is most probably simple javascript to fix this error, but personally I will need further knowledge and practice in javascript.
 
 # Deployment 
 
