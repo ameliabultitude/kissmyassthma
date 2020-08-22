@@ -210,7 +210,7 @@ The expected audience of this site are any gender, they will be most likely be i
 * Solution
     * Syntax error.
 
-# Deplopyment 
+# Deployment 
 ## GitHub Deplopyment
 To allow my project to be viewed by others, I took the following steps
 1. On GitHub, their internal navigation allowed me to go onto [settings](https://github.com/ameliabultitude/kissmyassthma/settings).
@@ -224,3 +224,8 @@ This allowed me to use an API. I merged it into my HTML for the map to be seen o
 2. After I created an account, I then was able to create an API Key and set the preferences and restrictions for it. 
 3. This process can be copied for others to intregrate google maps into their html.
 
+## Email JS
+EmailJS is used to automatically send me an email each time a user signs up to our page or contacts with comments. The user will also recieve an email response. This can be done by..
+1. Creating an account with EmailJS, choosing your plan. Personally I stayed with the free account, this allows 200 emails per month. 
+2. Following steps on their tutorials allowes you to create a template and add in EmailJS script into your project head. 
+3. EmailJS is now intregrated into your project and can be used. This also works on deploying projects who use EmailJS. 
