@@ -1,12 +1,33 @@
 # Kiss my assthma
 ### "Because it's not just asthma..."
 This website has been created to make people aware whilst educating them. Asthma is a condition that not many know about so the aim of this site was to build a community where it gives confidence. The site has a continued clean and flat design whilst being user friendly and interactive. Before creating the design and website a business strategy map was created. This allowed us to see the purpose, future, distribution and marketing channels along with competitors and competitive stategies; before finding a suitable design and website. Kiss my assthma was designed to have two S's as aposed to one. This comes with a light hearted pun which was thought to bring laughter to those who may be struggling with this condition. 
+This project is the second in the milestone projects that make up the Full Stack Developer Course. The focus was ensuring the website was interactive and responsive, using javascript to better the website functionality.
+[Click Here to see the site live](https://ameliabultitude.github.io/kissmyassthma/)
 
 Hosted on GitHub and GitHub Pages
 Created by Amelia Bultitude
 
 # UX
 (insert image from am i responsive at finish)
+
+## Design Process
+1. Discovery - I always knew that the main focus of this site was to inform others on the severity of this condition and offer support for those who may be going through the same thing. I wanted the site to be user friendly and easy to use for a variety of users. As I have just started my learning of JavaScript and this was my first project containing it, I wanted to use it to allow more interactiveness. Ensuring I designed JavaScript into my wireframe was paramount. I began with starting the UX design process by creating my User Stories which can be seen below, as these stories allowed me to develop accordingly.
+
+2. Strategy Plan - Once I had decided on my main aims throughout the project, I then focussed on planning my Key Features I wanted to include in my website. I made a list on all the JavaScript I wanted to include on my pages, this included any experimental implimentations. This list allowed me to decide on some Key Features : a To Do list, allowing users to create and edit their own list. Google Maps API, allowing users to see pointers of locations. A Sign Up form to allow updates to be recieved and a Contact Form with a response email.
+From thinning my ideas down into a list of features to include, I was able to then begin my Visual Design Process.
+
+3. Visual Design - I began to create the wireframes and structure of the design into 5 seperate pages: 'Index', 'About', 'Blog', 'To Do' and 'Contact'. The pages worked well into the disovery process, as 'Index' allowed users to come onto the website and navigate their way around, seeing newest blog post and allowing them to sign up. From there the user can navigate their way to the next page, 'About'. On this page they will have the same navigation choices from 'Index', it will allow them to read facts and view the first image carousel. Navigating to the next page 'Blogs', will allow several boxes on a page allowing the opening of modals. Through to 'To Do', will allow users to create their own to do list, and edit/add/remove input. Finally, to round the page off 'Contact' , this will allow users to see Google Maps pointers and contact the company if they need. Every page will be navigatable through the responsive navbar, and an internal button. 
+
+4. Production -  As mentioned in previous points, I will use a responsive navbar for main navigation and an internal button. I will use bootstrap to allow proper responsive implimentation. Once I used figma for my design process on my wireframes, [which can be seen here](https://www.figma.com/file/1Klny9yq9t9i2M158QC8vx/Kiss-my-assthma?node-id=0%3A1). Once I had made the base structure on Figma, I decided on a color scheme, for this I used [Coolors](https://coolors.co/), this helped me decide on five colors to use throughout my website. When deciding a color scheme, it is important to think about where each color could go. 
+* The Red (#d64045) is used for buttons and smaller boxes. 
+* The Dark Blue (#1d3354) is used for headings. 
+* The Medium Blue (#467899) is used for boxes and background colors.
+* The Light Blue (#9eb8db) is again used for boxes. 
+* The Lighest Blue (#e9fff9) is used for margin boxes in the background.
+
+I then went over to [Google Fonts](https://fonts.google.com/) where I decided on my two fonts to use throughout my website. For user friendly purposes, it is good to ensure these two fonts are compatible and easily readable. They need to maintain a professional standard to users trust the content. 
+
+Once my wireframes had be compeleted on figma, I opened up a repository on GitHub, this is where I began development. This repository can be seen on this [link here](https://github.com/ameliabultitude/kissmyassthma). I created the standard HTML structure of a website, with a few elements coming from bootstrap. I then created a css file, to begin designing. Once designing was underway, I began on my JavaScript files. 
 
 ## Main aims
 * To offer support and reassurance for other people going through the same problems and conditions.
