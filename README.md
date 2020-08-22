@@ -211,21 +211,31 @@ The expected audience of this site are any gender, they will be most likely be i
     * Syntax error.
 
 # Deployment 
+
+## Cloning Projects
+Some users may wish to clone a project, this is done if they would like to make their own changes, this can be done by...
+1. At the top of the repository page there is a button which says "code", this drops into a drop down where you can open in GitHub or copy over a link. 
+![GitHub Button](assets/images/github.png)
+2. Once the Terminal is open, you would then change the working directory to a location of your choice for the clone. 
+3. Add 'git clone' into the URL. Press Enter.
+
 ## GitHub Deplopyment
 To allow my project to be viewed by others, I took the following steps
 1. On GitHub, their internal navigation allowed me to go onto [settings](https://github.com/ameliabultitude/kissmyassthma/settings).
 2. Once in the settings tab, I scrolled down to the GitHub Pages section.
 3. On this section, you can select 'Master Branch' for the source.
 4. This ensured others could see my pages on live updates.
-
+![Master Branch](assets/images/github1.jpg)
 ## Google Maps Deplopyment
 This allowed me to use an API. I merged it into my HTML for the map to be seen on my site.
 1. Using ['Getting Started with Google Maps Platform'](https://developers.google.com/maps/documentation/javascript/overview) I was able to set up an account.
 2. After I created an account, I then was able to create an API Key and set the preferences and restrictions for it. 
 3. This process can be copied for others to intregrate google maps into their html.
+![Google Maps](assets/images/api.png)
 
 ## Email JS
 EmailJS is used to automatically send me an email each time a user signs up to our page or contacts with comments. The user will also recieve an email response. This can be done by..
 1. Creating an account with EmailJS, choosing your plan. Personally I stayed with the free account, this allows 200 emails per month. 
 2. Following steps on their tutorials allowes you to create a template and add in EmailJS script into your project head. 
 3. EmailJS is now intregrated into your project and can be used. This also works on deploying projects who use EmailJS. 
+![EmailJS](assets/images/emailjs.png)
