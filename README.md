@@ -8,7 +8,7 @@ Hosted on GitHub and GitHub Pages
 Created by Amelia Bultitude
 
 # UX
-(insert image from am i responsive at finish)
+![Am i Responsive](assets/images/responsive.png)
 
 ## Design Process
 1. Discovery - I always knew that the main focus of this site was to inform others on the severity of this condition and offer support for those who may be going through the same thing. I wanted the site to be user friendly and easy to use for a variety of users. As I have just started my learning of JavaScript and this was my first project containing it, I wanted to use it to allow more interactiveness. Ensuring I designed JavaScript into my wireframe was paramount. I began with starting the UX design process by creating my User Stories which can be seen below, as these stories allowed me to develop accordingly.
