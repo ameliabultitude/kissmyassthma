@@ -88,3 +88,17 @@ Below I have included each user who has tested out the site. I have written thei
 ### New Users
 * This user is new to the blog system and has no knowledge on asthma or it's severity. 
     * Index - Using the scroll on the mouse, they are able to easily navigate up and down the page to see content. 
+    * About - Using the scroll on the mouse or up and down keys, the page is still easily naviagtable and moveable. Text is easy to read.
+    * Blogs - Blogs are easy to open and close. But text is in block, may be easier to read if split. Blogs are informative and interesting.
+    * To Do - Clear to do list, easy to add remove and edit elements. 
+    * Contact - Easy contact form with nice email response. Maps easy to see and navigate with pointers.
+"My goal was to understand the website and navigate my way to the blogs to read and contact so I can put in some comments, I found the general website very clear and consistent with easily readable text and my initial goal was easily met." 
+### Existing Users
+* This user is a regular blog reader who has no knowledge on asthma but understands how blogs work. 
+    * Index - Home page is fun, it has an easy sign up box and a feature box which draws attention to the newest post. 
+    * About - About information facts is good and easy to read. Fun user friendly caorusel as well. 
+    * Blogs - Blog page is easy to use, buttons easily open and close. But the block text is hard to read.
+    * To Do - Fun user friendly to do list, which is easy to use. 
+    * Contact - Easy to use contact form with prompts when missed boxes occur. 
+"I enjoy reading blogs and I go on many different websites to read them. This website is well structured and is a fun user friendly site. I found the way to the blog page very easily and it drew my attention to the most recent post. The sign up to receive updates on the blog was clear and precise and gave prompts if I missed something. Although the blog page was easily navigatable, the posts were hard to read as they were block text."
+    
