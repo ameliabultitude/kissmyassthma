@@ -75,6 +75,7 @@ This outlines the features used on each page and the features used on every page
 * Hamburger Responsive Navbar
 * Responsive Footer
 * Margin Box
+* Back to top button
 ## Index
 * Sign up form
 * Featured box
@@ -96,7 +97,8 @@ This outlines the features used on each page and the features used on every page
 ## To Do 
 * Using JS a todo list allowing adding and deleting independently
 ## Features Left To Impliment
-* Back to top button
+* Styled Modals
+* Image Viewer in blogs.
 
 ## Planned Features 
 * README file 
