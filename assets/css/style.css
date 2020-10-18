@@ -629,7 +629,11 @@ input {
 
 .submitTwo{
     background-color:#D64045;
-    margin-left:43%;
+    margin-left:36%;
+}
+
+.resetBtn {
+    background-color:#D64045;  
 }
 
 .CF1,
