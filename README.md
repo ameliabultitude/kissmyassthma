@@ -143,8 +143,6 @@ This outlines the features used on each page and the features used on every page
 * [Firefox](https://developer.mozilla.org/en-US/docs/Tools) -
     * Firefox was used for developer tools and as a viewing browser
 ## Additional
-* [Mailchimp](https://mailchimp.com/) - 
-    * For sending out sign up emails.
 * [Safari](https://www.apple.com/uk/safari/) -
     * Safari was used as a viewing browser.
 * [Google](https://www.google.co.uk/) -
